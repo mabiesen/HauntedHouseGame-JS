@@ -4,14 +4,15 @@ This repository contains a short haunted house escape game as test of JS skills.
 The escape game is click based, and it is not made apparent to the user what objects are clickable and which are not. The goal is to work your way through the haunted house. Beware: if you click the wrong object, you will have only 1 minute remaining to escape the hosue.
 
 Folder Structure is as follows:
-
+```
 "Haunted House Game"
 |
 V
 "InventoryPics"   "RoomPics   "Audio"
+```
 
-
-Folder locations are all follows(folder names in quotes)
+Folder locations are all follows(folder names in quotes):
+```
 "Haunted House Game"
 -css file
 -html file
@@ -22,7 +23,7 @@ Folder locations are all follows(folder names in quotes)
 "RoomPics"
 
 "Audio"
-
+```
 
 Included at the top of each page is a display of mouse coordinates.  Coordinates for game clicks were calculated based off of the page layout.  Being new to Javascript I am uncertain whether this was the correct reference to use to insure all users can see the code.  I left the coordinates on the page during game creation and opted to leave them on in case I wanted to add more rooms or clickable objects to the game as it makes for an easy reference.
 
