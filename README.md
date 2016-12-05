@@ -55,5 +55,5 @@ Potential Reforms for code:
 -Consolidate the use of Jquery.  Currently, both Javascript and Jquery methods are used randomly
 -Change location of countdown timer currently located at top of page with coordinates listings.
 -There is a portion of jquery code that abuses the ability to add markup to HTML. Revise js, css, and HTML out of principle.
--change attributes of modal dialogue css
+-Change attributes of modal dialogue css
 ```
