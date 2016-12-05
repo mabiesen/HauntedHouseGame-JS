@@ -46,4 +46,12 @@ NOTE: All pictures and audio were obtained from online sources and are being use
 
 Included at the top of each page is a display of mouse coordinates.  Coordinates for game clicks were calculated based off of the page layout in most instances.  Being new to Javascript I am uncertain whether this was the correct reference to use to insure all users can see the code.  I left the coordinates on the page during game creation and opted to leave them on in case I wanted to add more rooms or clickable objects to the game as it makes for an easy reference.
 
-One may note the use of local storage for variables.  Initially the game was created with multiple HTML pages and I attempted to use local storage to make variables accessible from all pages(I ended up creating cookies instead).  I realized late in the project that it would be more efficient(from my perspective) to use just one html page and alter the images on the screen. I used local storage the second time around as a test of basic functionality and was successful.  I retained usage as it did not hinder functionality of the code and offered protection against accidentally altering variables.
+One may note the use of local storage for variables.  Initially the game was created with multiple HTML pages and I attempted to use local storage to make variables accessible from all pages(I ended up creating cookies instead).  I realized later in the project that it would be more efficient(from my limited perspective) to use just one html page and alter the images on the screen. I used local storage the second time around as a test of basic functionality and was successful.  I retained usage as it did not hinder functionality of the code and offered protection against accidentally altering variables.
+
+Potential Reforms for code:
+-Review commonly used variables and determine whether efficiency demands global or local scope
+-The modal dialogue can be improved.  Currently using setTimeout on proceeding code to allow dialogue to be seen.
+-Consolidate the use of Jquery.  Currently, both Javascript and Jquery methods are used randomly
+-Change location of countdown timer currently located at top of page with coordinates listings.
+-There is a portion of jquery code that abuses the ability to add markup to HTML. Revise js, css, and HTML out of principle.
+-change attributes of modal dialogue css
