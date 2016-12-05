@@ -48,6 +48,7 @@ Included at the top of each page is a display of mouse coordinates.  Coordinates
 
 One may note the use of local storage for variables.  Initially the game was created with multiple HTML pages and I attempted to use local storage to make variables accessible from all pages(I ended up creating cookies instead).  I realized later in the project that it would be more efficient(from my limited perspective) to use just one html page and alter the images on the screen. I used local storage the second time around as a test of basic functionality and was successful.  I retained usage as it did not hinder functionality of the code and offered protection against accidentally altering variables.
 
+```
 Potential Reforms for code:
 -Review commonly used variables and determine whether efficiency demands global or local scope
 -The modal dialogue can be improved.  Currently using setTimeout on proceeding code to allow dialogue to be seen.
@@ -55,3 +56,4 @@ Potential Reforms for code:
 -Change location of countdown timer currently located at top of page with coordinates listings.
 -There is a portion of jquery code that abuses the ability to add markup to HTML. Revise js, css, and HTML out of principle.
 -change attributes of modal dialogue css
+```
